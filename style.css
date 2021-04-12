@@ -254,16 +254,16 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams, .teams2{
+.services, .teams{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.teams, .teams2, .title::before{
+.teams .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams, .teams2, .title::after{
+.teams .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -551,7 +551,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "";
+    content: "What I've done";
 }
 .teams .carousel .card{
     background: #222;
